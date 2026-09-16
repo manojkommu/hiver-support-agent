@@ -1,0 +1,37 @@
+[
+  {
+    "name": "trivial (majority class)",
+    "macro_f1": 0.034574468085106384,
+    "accuracy": 0.16049382716049382,
+    "per_class_f1": {
+      "playback_app_issue": 0.277,
+      "account_access": 0.0,
+      "billing_payment": 0.0,
+      "subscription_management": 0.0,
+      "content_availability": 0.0,
+      "playlist_help": 0.0,
+      "praise_or_feedback": 0.0,
+      "other_unclear": 0.0
+    }
+  },
+  {
+    "name": "simple (TF-IDF + LogReg)",
+    "macro_f1": 0.39083784572915004,
+    "accuracy": 0.43209876543209874,
+    "per_class_f1": {
+      "playback_app_issue": 0.333,
+      "account_access": 0.286,
+      "billing_payment": 0.6,
+      "subscription_management": 0.444,
+      "content_availability": 0.615,
+      "playlist_help": 0.5,
+      "praise_or_feedback": 0.348,
+      "other_unclear": 0.0
+    }
+  },
+  {
+    "name": "simple_cv_all",
+    "macro_f1_mean": 0.5165928515928516,
+    "macro_f1_std": 0.07361432705268697
+  }
+]

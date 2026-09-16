@@ -1,0 +1,14 @@
+{
+  "macro_f1": 0.5877579386875436,
+  "accuracy": 0.5802469135802469,
+  "per_class_f1": {
+    "playback_app_issue": 0.414,
+    "account_access": 0.609,
+    "billing_payment": 0.737,
+    "subscription_management": 0.588,
+    "content_availability": 0.667,
+    "playlist_help": 0.429,
+    "praise_or_feedback": 0.593,
+    "other_unclear": 0.667
+  }
+}
